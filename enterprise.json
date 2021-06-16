@@ -1,0 +1,92 @@
+[
+    {
+        "AccountId": "12345",
+        "Offers": {
+                    "BT": [
+                        {
+                            "OfferId": "offer1",
+                            "Description": "balance transfer",
+                            "Type": "BT",
+                            "StartDate": "2021-05-19",
+                            "ExpiryDate": "2021-06-19",
+                            "Priority": 0,
+                            "Status": 0,
+                            "InterestRate": 0,
+                            "FeePercentage": 4,
+                            "Term": "12 Months"
+                        },
+                        {
+                            "OfferId": "offer2",
+                            "Description": "balance transfer",
+                            "Type": "BT",
+                            "StartDate": "2021-05-19",
+                            "ExpiryDate": "2021-07-21",
+                            "Priority": 0,
+                            "Status": 0,
+                            "InterestRate": 0,
+                            "FeePercentage": 10,
+                            "Term": "5 Months"
+                        }
+                    ],
+                    "MT": [
+                            {
+                            "OfferId": "offer1",
+                            "Description": "money transfer",
+                            "Type": "MT",
+                            "StartDate": "2021-05-19",
+                            "ExpiryDate": "2021-06-19",
+                            "Priority": 0,
+                            "Status": 0,
+                            "InterestRate": 0,
+                            "FeePercentage": 7,
+                            "Term": "2 Months"
+                            }
+                        ]
+                    }
+   },
+   {
+            "AccountId": "67890",
+            "Offers": {
+                "BT": [
+                        {
+                        "OfferId": "offer1",
+                        "Description": "balance transfer",
+                        "Type": "BT",
+                        "StartDate": "2021-05-19",
+                        "ExpiryDate": "2021-09-01",
+                        "Priority": 0,
+                        "Status": 0,
+                        "InterestRate": 0,
+                        "FeePercentage": 0,
+                        "Term": "1 Month"
+                        }
+                ],
+                "MT": [
+                        {
+                        "OfferId": "offer1",
+                        "Description": "money tranfer",
+                        "Type": "MT",
+                        "StartDate": "2021-05-19",
+                        "ExpiryDate": "2021-05-25",
+                        "Priority": 0,
+                        "Status": 0,
+                        "InterestRate": 0,
+                        "FeePercentage": 0,
+                        "Term": "2 Months"
+                        },
+                        {
+                            "OfferId": "offer2",
+                            "Description": "money transfer",
+                            "Type": "MT",
+                            "StartDate": "2021-05-19",
+                            "ExpiryDate": "2021-05-22",
+                            "Priority": 0,
+                            "Status": 0,
+                            "InterestRate": 0,
+                            "FeePercentage": 10,
+                            "Term": "5 Months"
+                            }
+                    ]
+            }
+        }
+]
